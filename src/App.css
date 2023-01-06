@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+.logo-container {
+  background-color:#432616;
+  min-height: 290px;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+
+}
+
+.heading {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: roboto;
+
+}
+
+.and {
+  color: #61dafb;
+}
+
+.tagline {
+  font-size: 14px;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.left-top {
+  border: 3px;
+  width: 5px;
+  background-color: aquamarine;
+  position: absolute;
+  margin: 20px;
+}
