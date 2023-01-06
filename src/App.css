@@ -65,6 +65,12 @@
 
 }
 
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+
 .and {
   color: #61dafb;
 }
@@ -74,6 +80,13 @@
   color: white;
   font-size: 14px;
   font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .tagline {
+    font-size: 18px;
+  }
+
 }
 
 .left-top {
